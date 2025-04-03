@@ -51,6 +51,10 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+# dependencias para el proyecto TikTok clone
+  video_player: ^2.7.0
+  cached_network_image: ^3.2.3
+  flutter_cache_manager: ^3.3.1
 flutter:
 
   # The following line ensures that the Material Icons font is
