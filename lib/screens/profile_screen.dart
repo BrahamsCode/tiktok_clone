@@ -23,7 +23,7 @@ class ProfileScreen extends StatelessWidget {
             child: Column(
               children: [
                 // Foto de perfil
-                CircleAvatar(
+                const CircleAvatar(
                   radius: 50,
                   backgroundImage: NetworkImage('https://randomuser.me/api/portraits/men/32.jpg'),
                 ),
@@ -112,11 +112,11 @@ class ProfileScreen extends StatelessWidget {
                                       fit: BoxFit.cover,
                                     ),
                                   ),
-                                  Positioned(
+                                  const Positioned(
                                     bottom: 5,
                                     left: 5,
                                     child: Row(
-                                      children: const [
+                                      children: [
                                         Icon(
                                           Icons.play_arrow,
                                           color: Colors.white,
@@ -159,11 +159,11 @@ class ProfileScreen extends StatelessWidget {
                                       fit: BoxFit.cover,
                                     ),
                                   ),
-                                  Positioned(
+                                  const Positioned(
                                     bottom: 5,
                                     left: 5,
                                     child: Row(
-                                      children: const [
+                                      children: [
                                         Icon(
                                           Icons.play_arrow,
                                           color: Colors.white,

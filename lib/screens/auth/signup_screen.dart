@@ -65,7 +65,7 @@ class _SignupScreenState extends State<SignupScreen> {
               // Foto de perfil
               Stack(
                 children: [
-                  CircleAvatar(
+                  const CircleAvatar(
                     radius: 64,
                     backgroundImage: NetworkImage('https://randomuser.me/api/portraits/men/1.jpg'),
                     backgroundColor: Colors.grey,

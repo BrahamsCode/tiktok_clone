@@ -176,7 +176,7 @@ class _CreateVideoScreenState extends State<CreateVideoScreen> {
                             color: Colors.grey[800],
                             borderRadius: BorderRadius.circular(8),
                           ),
-                          child: Center(
+                          child: const Center(
                             child: Icon(
                               Icons.auto_fix_high,
                               color: Colors.white,

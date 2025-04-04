@@ -196,7 +196,7 @@ class DiscoverScreen extends StatelessWidget {
                                     backgroundImage: NetworkImage('https://randomuser.me/api/portraits/men/${index + 10}.jpg'),
                                   ),
                                   const SizedBox(width: 4),
-                                  const Text(
+                                   Text(
                                     '@usuario${index + 1}',
                                     style: TextStyle(
                                       fontSize: 12,
@@ -206,8 +206,8 @@ class DiscoverScreen extends StatelessWidget {
                                 ],
                               ),
                               const SizedBox(height: 4),
-                              Row(
-                                children: const [
+                              const Row(
+                                children: [
                                   Icon(
                                     Icons.favorite,
                                     color: Colors.white,
